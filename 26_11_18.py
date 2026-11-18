@@ -26,3 +26,11 @@ def solution(my_string, index_list):
     for n in index_list:
         a=a+str(my_string[n])    
     return a
+#배열의 원소만큼 추가하기
+def solution(arr):
+    a=[]
+    for n in arr:
+        for f in range(n): 
+            a.append(n)
+    return a    
+#if we use two for loops,we can use direct ways and the range ways 
